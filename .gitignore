@@ -1,0 +1,6 @@
+**/.terraform/modules/**/**
+**/.terraform/*
+# OSX trash
+.DS_Store
+.vscode
+.terraform.lock.hcl
