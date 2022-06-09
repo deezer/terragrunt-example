@@ -1,31 +1,31 @@
 variable "billing_account" {
-  default = "012345-ABCDEF-UVWXYZ"
+  type = string
 }
 
 variable "folder_id" {
-  default = "12345678"
+  type = string
 }
 
 variable "project_name" {
-  default = "team-b-proj-product1"
+  type = string
 }
 
 variable "organization_id" {
-  default = "12345678"
+  type = string
 }
 
 variable "region" {
-  default = "europe-west1"
+  type = string
 }
 
 variable "zone" {
-  default = "europe-west1-b"
+  type = string
 }
 
 variable "tech_lead" {
-  default = "Freddie Mercury"
+  type = string
 }
 
 variable "contact" {
-  default = "fmercury@gmail.com"
+  type = string
 }
